@@ -1,4 +1,4 @@
-app.taxYear: 2019
+app.taxYear: 2010
 app.supportedTaxYears: [2012, 2013, 2014, 2015, 2016, 2017]
 spring:
   rabbitmq:
