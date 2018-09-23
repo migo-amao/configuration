@@ -1,2 +1,8 @@
 app.taxYear: 2017
 app.supportedTaxYears: [2012, 2013, 2014, 2015, 2016, 2017]
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: my_mq_user
+    password: mq_secret_57*key
