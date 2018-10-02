@@ -1,8 +1,14 @@
-app.taxYear: 2010
-app.supportedTaxYears: [2012, 2013, 2014, 2015, 2016, 2017]
 spring:
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_HOST:localhost}
     port: 5672
-    username: my_mq_user
-    password: mq_secret_57*key
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+  instance:
+    preferIpAddress: true
