@@ -3,9 +3,6 @@ app:
 
 account-service:
   ribbon:
-    list-of-servers: localhost:8080
-    connect-timeout: 3500
-    read-timeout: 4500
-
-    eureka:
-      enabled: false
+    listOfServers: localhost:8080
+    connectTimeout: 3500
+    readTimeout: 4500
