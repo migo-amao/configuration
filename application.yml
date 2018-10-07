@@ -13,3 +13,7 @@ eureka:
   instance:
     preferIpAddress: true
     hostname: ${HOST_NAME:localhost}
+
+logging:
+  level:
+    root: DEBUG
